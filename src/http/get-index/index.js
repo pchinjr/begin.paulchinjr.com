@@ -1,20 +1,18 @@
 const Main = require('@architect/views/main.js')
 exports.handler = async function Index () {
   let body = Main({
-    fullname: 'Kristofer Joseph',
-    title: 'kj',
-    occupation: 'think dreams ⌁ make things ⌁ help beings',
-    location: 'Bay Area, Ca',
-    bio: 'Kristofer "kj" Joseph truly believes that the internet is the most powerful tool for bringing people together and raising our collective understanding. He has dedicated his career to building tools to enable people to share their dreams with the world.',
-    email: 'kj@begin.com',
-    twitter: 'dam',
-    linkedin: '',
-    instagram: '',
-    facebook: '',
-    photographer: 'Ivana Cajina',
-    service: 'Unsplash',
-    credit: 'https://unsplash.com/@von_co',
-    image: 'https://images.unsplash.com/photo-1517984148507-8b3358812287?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60'
+    fullname: 'Paul Chin Jr.',
+    title: 'Prophet of Nicolas Cage',
+    occupation: 'Head of Developer Relations at Begin.com',
+    location: 'Virginia Beach, VA',
+    bio: 'Paul is looking forward to hearing your story. He has spent his life exploring technology and bringing it to people where they are. Serverless, JavaScript, and OpenJS Architect are his favorite tools. Favorite food changes daily. Things Paul is super interested in: mechanical keyboards, food, business, serverless, cloud native development, the modern web.',
+    email: 'paul@begin.com',
+    twitter: 'paulchinjr',
+    linkedin: 'paulchinjr',
+    photographer: 'Paul Chin Jr.',
+    service: 'Animal Crossing New Horizons',
+    credit: 'https://i.imgur.com/NzbgnQP.jpg',
+    image: 'https://i.imgur.com/NzbgnQP.jpg'
   })
 
   return {
