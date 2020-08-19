@@ -1,0 +1,28 @@
+{
+  "name": "node-personal-website",
+  "version": "0.0.3",
+  "description": "Example Begin personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sandbox",
+    "test": "tape ./test/*.js ./test/**/*.js | tap-spec",
+    "lint": "eslint src --ignore-pattern node_modules --fix"
+  },
+  "keywords": [
+    "begin",
+    "serverless",
+    "personal website",
+    "example"
+  ],
+  "author": "@dam",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1",
+    "tiny-json-http": "^7.1.2"
+  },
+  "dependencies": {
+    "@architect/sandbox": "^1.9.1"
+  }
+}
